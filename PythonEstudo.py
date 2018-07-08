@@ -1,4 +1,4 @@
-n1 = (input('Se você quiser descobrir espaço, digite: Espaço, Se vc quiser descobrir Velocidade, digite: Velocidade, Se vcoê quiser descobrir Tempo, digite: Tempo. Qual você escolheu?: '))
+n1 = (input('Se você quiser descobrir espaço, digite: Espaço, Se você quiser descobrir Velocidade, digite: Velocidade, Se você quiser descobrir Tempo, digite: Tempo. Qual você escolheu?: '))
 if (n1 == "Velocidade"):
     Velocidade1 = int(input('Qual o Tempo: '))
     Velocidade2 = int(input('Qual o Espaço: '))
@@ -11,3 +11,4 @@ if (n1 == "Espaço"):
     Espaço1 = int(input('Qual a Velocidade: '))
     Espaço2 = int(input('Qual o Tempo: '))
     print (Espaço1 * Espaço2)
+    
